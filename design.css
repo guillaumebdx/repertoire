@@ -1,0 +1,72 @@
+h1, h2, p{
+    color: rgb(25, 6, 239);}
+h1, h2, p{
+    font-family: Arial;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+}
+p {
+    font-size: 2em;
+}
+.vignette {
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);;
+    padding: 10px;
+}
+.block-vignettes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+body {
+ background-color: rgb(188, 181, 215);
+}
+.vignette {
+    font-size: 32px;
+    background-color: #7e75c3;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+.vignette {
+font-family: Arial;
+}
+.filtre:hover {
+text-decoration: underline;
+}
+.nom:hover {
+text-decoration: underline;
+}
+.img:hover {
+opacity: 0,3;
+}
+.vignette:hover {
+  color: rgb(21, 36, 20);
+}
+
+.filtre {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+
+
+.nom {
+font-weight: bold;
+}
+.slogan {
+font-family: Arial;
+font-weight: bold;
+color: rgb(25, 6, 239);
+}
+.img {
+font-size: small;
+}
